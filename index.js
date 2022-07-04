@@ -1,5 +1,6 @@
 console.log("Here we are strong !");
 
+const { log } = require("console");
 const http = require("http");
 const app = require("./application");
 
@@ -48,3 +49,4 @@ server.on("listening", () => {
 });
 
 server.listen(port);
+console.log("whou !!");
